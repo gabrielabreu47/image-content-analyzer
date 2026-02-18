@@ -1,0 +1,26 @@
+{
+  "name": "image-analyzer-backend",
+  "version": "1.0.0",
+  "description": "Backend API for image content analysis",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --forceExit"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.68.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
+}
