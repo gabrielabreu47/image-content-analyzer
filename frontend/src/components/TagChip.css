@@ -1,0 +1,19 @@
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  background: #f0fdfa;
+  color: #0f766e;
+  border: 1px solid #ccfbf1;
+  white-space: nowrap;
+}
+
+.tag-chip__confidence {
+  font-size: 11px;
+  color: #5eead4;
+  font-weight: 400;
+}
